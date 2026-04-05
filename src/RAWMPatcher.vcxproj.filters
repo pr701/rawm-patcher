@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="lang.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="patcher.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="process.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lang.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="patcher.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{09e36ee8-8c07-44b3-9309-1753df998f13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{6b0c60b9-c302-493d-8daa-14b4c2570686}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
